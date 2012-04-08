@@ -79,7 +79,6 @@ Function getValues()
       rightA = right.getValues
       size = size + (UBound(rightA)+1)
     End If
-    MsgBox size
     Redim tmp(size)
     Dim x
     Dim ip
