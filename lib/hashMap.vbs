@@ -1,9 +1,9 @@
 Class HashMap
 Dim map
 
-Sub init
-  set map = CreateObject("Scripting.Dictionary")
-End sub
+Private Sub Class_Initialize()
+ set map = CreateObject("Scripting.Dictionary")
+End Sub
 
 Sub put(ByVal key, ByVal value)
 

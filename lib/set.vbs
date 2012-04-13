@@ -5,6 +5,10 @@ Dim parent
 Dim value
 Dim i
 
+Private Sub Class_Initialize()
+ i = False
+End Sub
+
 Property Let parentNode(p)
   Set parent = p  
 End Property
@@ -20,10 +24,6 @@ End Property
 Property Get getValue()
   getValue = value
 End Property
-
-Sub init
- i = False
-End Sub
 
 Sub insert(ByVal p)
 
