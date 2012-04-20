@@ -1,3 +1,6 @@
+const module_name  = "VBS-SQL-Helper"         'this name must be unique !!!
+const module_ver   = "0.1"            'version
+
 Dim included    
 
 Call Include
